@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/jquery-3.5.1.js"></script>
+    <link href="css/style1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Sản phẩm</title>
+</head>
+<body>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- menu1 -->
+        <div class="container" id="menu1">
+            <div class="row">
+                <div class="col-md-4" id="menu1-left">
+                    <ul class="nav">
+                        <li class="nav-item" >
+                            <a href="" class="nav-link">
+                                <i class="fa fa-phone"></i>
+                                <span>Hotline:0908770095</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8" id="menu1-right">
+                    <ul  class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="fab fa-acquisitions-incorporated"></i>
+                                Kiểm tra đơn hàng
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="fa fa-shopping-cart"></i>
+                                Giỏ hàng
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="fas fa-sign-in-alt"></i>
+                                Đăng nhập
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="fa fa-key"></i>
+                                Đăng ký
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /menu1 -->
+        <hr class="hr">
+        <!-- menu2 -->
+        <div class="container" id="menu2">
+            <div class="row">
+                <div class="col-md-3" id="logo">
+                    <a href="index.html">
+                        <img src="images/logo.jpg"  alt="">
+                    </a>
+                </div>
+                
+                <div class="col-md-3" id="search">
+                    <input type="text" name="" id="search-box" placeholder="Tìm kiếm ..." >
+                    <button class="btn btn-search" title="Search" type="button" id="btnsearch" value="Search">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div class="col-md-3" id="cart">
+                    <a href="#" id="cart-right">
+                        <i class="fas fa-shopping-cart" id="icon-cart"></i>
+                        <span class="next-cart" >0 sp - 0đ
+                            <i class="fa fa-arrow-right" id="icon-right"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /menu2 -->
+        <hr class="hr">
+        <!-- menu3 -->
+        <div class="container" id="menu3">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></a></li>
+                <li class="nav-item"><a class="nav-link" href="">Giới thiệu</a></a></li>
+                <li class="nav-item"><a class="nav-link" href="product.html">Sản phẩm</a></a></li>
+                <li class="nav-item"><a class="nav-link" href="">Dịch vụ</a></a></li>
+                <li class="nav-item"><a class="nav-link" href="">Tin tức</a></a></li>
+                <li class="nav-item"><a class="nav-link" href="">Thư viện ảnh</a></a></li>
+                <li class="nav-item"><a class="nav-link" href="">Liên hệ</a></a></li>
+            </ul>
+        </div>  
+        <!-- /menu3 -->
+        <!-- link -->
+        <div class="container lk">
+            <div class="row">
+                <div class="col-md-12 link-text">
+                    <a href="index.html">Trang chủ</a>
+                    <i class="fas fa-angle-double-right"></i>
+                    <span >Sản phẩm</span>
+                </div>
+            </div>
+        </div>
+        <!-- /link -->
+        <!-- product -->
+        <div class="container product">
+            <div class="row">
+                <div class="col-md-12 product-title">
+                    <div class="box"></div>
+
+                    <div class="title">
+                        Sản Phẩm 
+                    </div>
+                </div>
+            </div>
+            <hr class="hr1">
+            <div class="row product-info">
+                <div class="col-md-6 info-left">
+                    <div class="icon">
+                        <i class="fa fa-th-large" style="color: #acbd0f;"></i>
+                        <i class="fa fa-th-list" style="margin-left: 4px;"></i>
+                    </div>
+                    <div class="info-text">
+                        Sản phẩm/trang
+                        <select name="" id="" >
+                            <option value="10">10</option>
+                            <option value="12">12</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                            <option value="150">150</option>
+                            <option value="200">200</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 info-right">
+                    <div class="info-text-right">
+                        Sắp xếp
+                        <select name="" id="">
+                            <option value="Mặc định">Mặc định</option>
+                            <option value="Giá tăng dần">Giá tăng dần</option>
+                            <option value="Giá giảm dần">Giá giảm dần</option>
+                            <option value="Tên sản phẩm:  A to Z">Tên sản phẩm:  A to Z</option>
+                            <option value="Tên sản phẩm:  Z to A">Tên sản phẩm:  Z to A</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr1">
+            <div class="row">
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img1.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Dâu tây Sollicitudin
+                            </div>
+                            <div class="product-prices">
+                                50,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img3.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Quả Porttitor
+                            </div>
+                            <div class="product-prices">
+                                150,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img3.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Cam Suspendisse
+                            </div>
+                            <div class="product-prices">
+                                50,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img1.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Dưa hấu
+                            </div>
+                            <div class="product-prices">
+                                250,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                        
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img3.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Dâu tây Sollicitudin
+                            </div>
+                            <div class="product-prices">
+                                50,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img1.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Quả Porttitor
+                            </div>
+                            <div class="product-prices">
+                                150,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img3.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Cam Suspendisse
+                            </div>
+                            <div class="product-prices">
+                                50,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                        
+                    </a>
+                </div>
+                <div class="col-md-3 hotProduct-images" >
+                    <a href="#" >
+                        <div class="box">
+                            <img src="images/img-product/img1.jpg" class="imgPr" alt="">
+                            <i class="fa fa-link link "></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="title-product">
+                                Dưa hấu
+                            </div>
+                            <div class="product-prices">
+                                250,000 đ
+                            </div>
+                            <!-- <div class=" btn product-btn rounded">
+                                Mua
+                            </div> -->
+                            <button type="button" class="btn btn-danger product-btn ">Mua</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /product -->
+        <!-- partner -->
+        <div class="container partner">
+            <div class="row">
+                <div class="col-md-12 partner-title">
+                    <div class="box"></div>
+
+                    <div class="title">
+                        Đối tác
+                    </div>
+                </div>
+            </div>
+            <hr class="hr1">
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-2 partner-icon">
+                    <img src="images/partner/partner1.jpg" alt="">
+                </div>
+                <div class="col-md-2 partner-icon">
+                    <img src="images/partner/partner2.jpg" alt="">
+                </div>
+                <div class="col-md-2 partner-icon">
+                    <img src="images/partner/partner3.jpg" alt="">
+                </div>
+                <div class="col-md-2 partner-icon">
+                    <img src="images/partner/partner4.jpg" alt="">
+                </div>
+                <div class="col-md-2 partner-icon">
+                    <img src="images/partner/partner5.jpg" alt="">
+                </div>
+                <div class="col-md-2 partner-icon">
+                    <img src="images/partner/partner6.jpg" alt="">
+                </div>
+            </div>
+            <hr class="hr1">
+
+        </div>
+        <!-- /partner -->
+        <!-- footer -->
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-3 infor">
+                    <img src="images/logo.jpg" alt="">
+                    <div class="infor-content" style="margin-top: 20px;">
+                        <b>CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ RUNTIME</b>
+                        <p>
+                            <i class="fa fa-map-marker"></i>
+                            " 5/12A Quang Trung, P.14, Q.Gò Vấp, Tp.Hồ Chí Minh"
+                        </p>
+                        <p class="email">
+                            <i class="fa fa-envelope"></i>
+                            <a href="#">info@runtime.vn</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-phone"></i>
+                            Phone:  (08) 85 85 66 38
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 restaurant">
+                        <b style="margin-left: 15px;font-size:20px;color: #acbd0f;">Nhà hàng</b>
+                            <div class="restaurant-text">
+                                <p>Giới thiệu nhà hàng</p>
+                                <p>Thực đơn</p>
+                                <p>Nhà hàng và Buffet</p>
+                            </div>
+                </div>
+                <div class="col-md-3 restaurant">
+                        <b style="margin-left: 15px;font-size:20px;color: #acbd0f;">Hotel</b>
+                            <div class="restaurant-text">
+                                <p>Giới thiệu về khách sạn</p>
+                                <p>Loại phòng và Đặt phòng</p>
+                                <p>Tiện ích và dịch vụ</p>
+                            </div>
+                </div>
+                <div class="col-md-3 restaurant">
+                        <b style="margin-left: 15px;font-size:20px;color: #acbd0f;">FACEBOOK</b>
+                        <div class="icon-fb">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="icon-fb">
+                            <i class="fab fa-google-plus-g"></i>
+                        </div>
+                        <div class="icon-fb">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="icon-fb">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+    </div>
+    <div id='back_to_top'><i class="fas fa-angle-up"></i></div>
+    <!-- /wrapper -->
+
+
+    <style>
+        .box .imgPr{
+            margin-right: 40px;
+        }
+        .box{
+            /* width: 500px;
+            height: 500px; */
+            /* margin: auto; */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .link{
+            width: 40px;
+            line-height: 40px;
+            position: absolute;
+            top: 80px;
+            cursor: pointer;
+            left: 90px;
+            display: none;
+            background: red;
+            text-align: center;
+            border-radius: 50%;
+            color: white;
+        }
+        
+        .imgPr:hover{
+            opacity: 0.5;
+        }
+        .box:hover .link{
+            display: block;
+            opacity: 0.9;
+        }
+        .link:hover{
+            background: yellowgreen;
+        }
+    </style>
+
+    <script>
+        jQuery(document).ready(function(){
+            jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() != 0) {
+                    jQuery('#back_to_top').fadeIn();
+                } else {
+                    jQuery('#back_to_top').fadeOut();
+                }
+            });
+ 
+            jQuery('#back_to_top').click(function() {
+                jQuery('body,html').animate({scrollTop: 0}, 1000);
+            });
+        });
+    </script>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
